@@ -6,9 +6,10 @@ const Box = (props) => {
       className="box"
       style={{
         backgroundColor: props.boxColor || "black",
+        // backgroundColor : "black"
       }}
     >
-      <p></p>
+      <p>{props.text}</p>
     </div>
   );
 };
